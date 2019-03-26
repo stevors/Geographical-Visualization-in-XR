@@ -22,8 +22,30 @@ opposed to using the qgisthreejs exportor. Ideally, if I were able to do this, t
 options. Perhaps allowing the user to zoom in and out more freely. Also, if data were available it would be useful to include historical 
 landslides that have occured in the region. 
 
+**********************************************
+Link to A-Frame. The A-Frame was having a real tough time loading the DEM, so I really hope it works. But it also gave me a headache spinny around after a while, so this is the best I could do.
+
+A-Frame: https://zesty-share-1.glitch.me/
+A-Frame Code:
+<!DOCTYPE html>
 
 
+<html> 
+  
+  <head>
+    <script src="https://aframe.io/releases/0.8.2/aframe.min.js"> </script>
+  </head>
+  
+  <body>
+    
+    <a-scene background="color: white">
+    
+     <a-gltf-model position="0 50 0" rotation="10 111 110" scale= "3 3 3" src="https://cdn.glitch.com/0568f1c8-4180-4465-a0ba-9c04e5af122d%2FSchubert_472_VR.glb?1553562909018"></a-gltf-model>
+    
+      </a-scene>
+  </body>
+</html>
+***********************************************
 
 COPY OF SOURCE CODE BELOW
 ----------------------------------------------
